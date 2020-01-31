@@ -1,0 +1,117 @@
+
+
+#wrapper{
+  position: relative;
+}
+
+.content {
+  z-index: 100;
+  position: relative;
+}
+
+
+.banner {
+  position: absolute;
+  top: 0px;
+  width: fit-content;
+  opacity: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+ 
+}
+
+.our_header {
+  padding: 10px;
+  text-align: center;
+}
+
+body {
+  background-color: wheat;
+}
+
+.divider {
+  height: 1px;
+  margin-bottom: 10px;
+  background-color: black;
+  margin-top: 15px
+}
+
+.our_content {
+  text-align: center;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.main_content {
+  text-align: center;
+  align-content: center;
+  border: black;
+  border-style: solid;
+  padding: 10px;
+}
+
+.dataframe {
+  background-color: lightblue;
+  padding: 10px;
+}
+tr {
+  padding: 15px;
+  border-width: 2px;
+}
+
+/* td {
+  padding: 5px;
+  width: fit-content;
+  border-width: 2px; 
+} */
+
+table.dataframe {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: fit-content;
+  border-width: 2px; 
+}
+
+button {
+  padding: 15px;
+  width: 275px;
+}
+
+a {
+  padding: 15px
+}
+
+#resultcolleft {
+  padding: 5px;
+  width: 600px;
+  margin-left: -30px
+}
+
+#resultcolleft {
+  padding: 5px;
+  width: 600px;
+  margin-right: -50px
+}
+
+
+
+.row {
+  text-align: center;
+}
+
+.buttoncontainer {
+  text-align: center;
+}
+
+.gridsearch h1 {
+  text-align: center;
+}
+
+
+.gridsearch table {
+  margin-bottom: 100px
+  
+}

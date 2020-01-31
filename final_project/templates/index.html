@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Wine Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+</head>
+<body>
+
+  <div id="wrapper">
+      <div class="content">
+          <div class="our_header">
+              <h1>Red & White Wine</h1>
+              <p>Grading the wine quality from "eww" to "Wow, that is excellent".</p>
+
+          </div>
+          
+          <div class="divider"></div>
+
+          <h1 style="text-align: center;">Wine Predictor</h1>
+          <div class="divider"></div>
+          <div class="our_content"> 
+            <div class="container">
+                        <div class="row">
+                          <div class="col-3">
+                              <a href="/logistic_regression">
+                                <button>Run Logistic Regression</button>
+                              </a>
+                          </div>
+
+                          <div class="col-3">
+                              <a href="/random_forrest">
+                                <button>Run Random Forrest</button>
+                              </a>
+                          </div>
+
+                          <div class="col-3">
+                              <a href="/knn">
+                                <button>Run K Neighbors Classifier</button>
+                              </a>
+                          </div>
+
+                          <div class="col-3">
+                              <a href="/svc">
+                              <button>Run Support Vector Classification</button>
+                            </a>
+                          </div>
+
+                        </div>
+            </div>
+              <h1>{{model_title}}</h1>
+              <h2>{{title_data}}</h2>
+              <p>{{our_data|safe}}</p>
+
+              <h2>{{title_Features}}</h2>
+              {{params_table|safe}}
+              <h1></h1>
+              <h1></h1>
+              <div class="container">
+                <div class="row"> 
+                    <div class="col-6">
+                            <h2>{{title_Wine_Type}}</h2>
+                            {{result_table|safe}}
+                            <h3>{{title_Score}}{{model_score}}</h3>
+                            <h3>{{title_Classification_Report}}</h3>
+                            {{class_report|safe}}
+                            <h3>{{title_Confusion_Matrix}}</h3>
+                            {{conf_table|safe}}
+                    </div>
+
+                    <div class="col-6">
+                      <h2>{{title_Wine_Quality}}</h2>
+                          {{result_table_quality|safe}}
+
+                      <h3>{{title_Score}}{{model_score_quality}}</h3>
+                      <h3>{{title_Classification_Report}}</h3>
+                          {{class_report_quality|safe}}
+
+                      <h3>{{title_Confusion_Matrix}}</h3>
+                          {{conf_table_quality|safe}}                     
+                    </div>
+                </div>
+
+              </div>
+
+ 
+              <div class="divider"></div>
+          </div>
+      </div>
+
+      <div class="banner">
+            <img src="{{ url_for('static', filename='images/banner.png') }}">
+      </div>
+  </div>
+
+  <div class="gridsearch">
+    <h1>{{title_gridsearch}}</h1>
+    {{grid_search_quality|safe}}
+  </div>
+
+
+</body>
+</html>
