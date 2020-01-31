@@ -19,4 +19,4 @@ Results are given using classification reports, Confusion Matrix report, and mod
 
 TO RUN APP:<br> CLONE GIT REPOSITORY OPEN CONSOLE or BASH AND NAVIGATE TO DIRECTORY <br>INPUT INTO CONSOLE:PYTHON APP.PY <br>NAVIGATE TO: ... <br>HTTP://LOCALHOST:5000<br> ... IN WEB BROWSER
 
-![Image description](../preview.jpg)
+![Logistic Regression Preview](preview.JPG)
