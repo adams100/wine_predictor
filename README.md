@@ -4,7 +4,7 @@ Using Python's Scikit-Learn to predict wine quality and type across multiple typ
 Dataset was taken from 
 https://archive.ics.uci.edu/ml/datasets/Wine
 
-Machine learning analysis predicing wine type with approx 99% accuracy and wine quality (2-9pnt scale) with approx 80% accuracy given the features:
+Machine learning analysis predicing wine type with approx 99% accuracy and wine quality (2-9pnt scale) with approx 80% accuracy given the <strong>Machine Learning Features:</strong>
 (fixed acidity,	volatile acidity,	citric acid, residual sugar,	chlorides,	free sulfur dioxide,	total sulfur dioxide,	density,	pH,	sulphates,	alcohol)
 
 
