@@ -9,8 +9,6 @@ Machine learning analysis predicing wine type with approx 99% accuracy and wine 
 <strong>Machine Learning Features:</strong><br>
 (fixed acidity,	volatile acidity,	citric acid, residual sugar,	chlorides,	free sulfur dioxide,	total sulfur dioxide,	density,	pH,	sulphates,	alcohol)<br>
 <br>
-<br>
-<br>
 <strong>Models used:</strong><br>
 Logistic Regression<br>
 Random Forest<br>
