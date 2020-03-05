@@ -19,6 +19,7 @@ Support Vector Classification<br>
 Classification reports<br>
 Confusion Matrix report<br>
 Randomly selected testing parameters<br>
+Accuracy scores<br>
 <br>
 <strong>Model parameters are tuned using GridSearchCV!</strong><br>
 <br>
