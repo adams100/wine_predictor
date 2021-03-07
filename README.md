@@ -23,9 +23,7 @@ Accuracy scores<br>
 <br>
 <strong>Model parameters are tuned using GridSearchCV!</strong><br>
 <br>
-<strong>To run code:</strong><br>
-Clone repository<br>
-run "app.py" with python installed<br>
-navigate to: HTTP://LOCALHOST:5000 and a web browser
-
+<h1><a href="http://winepredictor.herokuapp.com/">SEE IT LIVE HERE!</a></h1>
+<br>
+  
 ![Logistic Regression Preview](preview.JPG)
